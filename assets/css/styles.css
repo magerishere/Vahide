@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "vazir";
+    src: url(../fonts/Vazir-Medium.ttf);
+}
+* {
+    box-sizing: border-box;
+    font-family: "vazir";
+}
+.header {
+   direction: rtl;
+   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.logo-image {
+    width: auto;
+    height: 3rem;
+    vertical-align: middle;
+    cursor: pointer;
+}
+li {
+    font-weight: 520;
+    color: #404040 !important;
+}
+
+.sighin-btn {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+footer {
+    width: 100%;
+    display: -webkit-box;
+    display: flex;
+    background-color: #061c3f;
+    -webkit-box-direction: normal;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+footer a,p {
+    color: #fff !important;
+
+}
+.footer div{
+    display: block;
+
+}
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.title {
+    margin: 2rem 0 ;
+}
+header a {
+    font-size: 20px;
+}
+a::hover {
+    color: chartreuse;
+}
