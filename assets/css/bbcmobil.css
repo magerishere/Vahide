@@ -1,0 +1,10 @@
+.body {
+    overflow: hidden;
+}
+.header-D {
+    display: none;
+}
+.header-M {
+    height: 30px;
+    border-color: #000;
+}
