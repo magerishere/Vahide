@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="../../assets/css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li><a href="../../../index.html">خانه</a></li>
+        <li class="guest"><a href="../auth/register.html">ثبت نام</a></li>
+        <li class="guest"><a href="../auth/login.html">ورود</a></li>
+        <li class="mr-auto auth"><a href="../user/dashboard.html">داشبورد</a></li>
+        <li><a href="./cart.html">سبد خريد</a> <span id="cart">(3)</span></li>
+        <li class="auth">
+          <form action="/logout" method="POST" id="form-logout">
+            <button>خروج</button>
+          </form>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <section>
+        <div class="card">
+          <h1>سبد خريد</h1>
+          <ul id="cart-list"></ul>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script type="module" src="../../assets/js/scripts.js"></script>
+    <script type="module" src="../../assets/js/auth/logout.js"></script>
+    <script type="module" src="../../assets/js/user/cart.js"></script>
+  </body>
+</html>
